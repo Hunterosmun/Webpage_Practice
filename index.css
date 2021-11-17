@@ -1,0 +1,105 @@
+.spacer {
+  flex: 1;
+}
+
+.btn {
+  background-color: rgb(31, 31, 143);
+  color: white;
+  border-radius: 10px;
+  height: 35px;
+  width: 110px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: rgb(20, 20, 77);
+}
+
+.drop-down {
+  border: none;
+  background-color: white;
+}
+
+.app {
+  background: #edf3f7;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  font-family: sans-serif;
+  color: #888;
+}
+
+.main-box {
+  background-color: white;
+  margin: 60px;
+  border-radius: 10px;
+  min-width: 1250px;
+  min-height: 500px;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  padding: 10px;
+  border: 1px solid transparent;
+}
+
+.tab:hover {
+  border-color: #999;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.user {
+  display: flex;
+  padding: 10px;
+}
+
+h1 {
+  color: #000;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.name {
+  padding: 10px;
+}
+
+.user-num {
+  display: flex;
+  align-items: center;
+  margin: 10px 30px 0;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6fafc;
+  margin: 20px 20px 0;
+  padding: 16px;
+}
+
+.search-bar {
+  width: 1140px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.selected-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
